@@ -10,7 +10,7 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"@harperdb/nextjs": "^0.0.4",
+		"@harperdb/nextjs": "^0.0.12",
 		"harperdb": "^4.4.5",
 		"next": "^14.2.16",
 		"react": "^18",
