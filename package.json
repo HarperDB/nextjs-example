@@ -1,5 +1,5 @@
 {
-	"name": "nextjs-example",
+	"name": "harper-nextjs-example",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -10,18 +10,17 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"@harperdb/nextjs": "^1.0.1",
-		"harperdb": "^4.4.8",
-		"next": "^14.2.16",
-		"react": "^18",
-		"react-dom": "^18"
+		"@harperdb/nextjs": "1.1.1",
+		"next": "15.3.3",
+		"react": "18",
+		"react-dom": "18"
 	},
 	"devDependencies": {
-		"@harperdb/code-guidelines": "^0.0.2",
-		"eslint": "8.57.1",
-		"eslint-config-next": "15.0.1",
-		"eslint-config-prettier": "^9.1.0",
-		"prettier": "^3.3.3"
+		"@harperdb/code-guidelines": "0.0.2",
+		"eslint": "9.27.0",
+		"eslint-config-next": "15.3.3",
+		"eslint-config-prettier": "10.1.5",
+		"prettier": "3.5.3"
 	},
 	"prettier": "@harperdb/code-guidelines/prettier"
 }

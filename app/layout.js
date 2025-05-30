@@ -10,7 +10,14 @@ export default function RootLayout({ children }) {
 			<body style={{ width: '500px', fontFamily: 'sans-serif' }}>
 				<header>
 					<nav>
-						<ul style={{ display: 'flex', gap: '1rem', listStyle: 'none', padding: 0 }}>
+						<ul
+							style={{
+								display: 'flex',
+								gap: '1rem',
+								listStyle: 'none',
+								padding: 0,
+							}}
+						>
 							<li>
 								<Link href="/">Home</Link>
 							</li>
@@ -29,7 +36,7 @@ export default function RootLayout({ children }) {
 
 						<p>
 							Dig into the source code here:{' '}
-							<Link href="https://github.com/HarperDB-Add-Ons/nextjs-example">HarperDB-Add-Ons/nextjs-example</Link>
+							<Link href="https://github.com/HarperDB/nextjs-example">HarperDB/nextjs-example</Link>
 						</p>
 					</section>
 					{children}
