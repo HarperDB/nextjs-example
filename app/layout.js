@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
 export const metadata = {
-	title: 'HarperDB - Next.js App',
+	title: 'Harper - Next.js App',
 };
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body style={{ width: '500px', fontFamily: 'sans-serif' }}>
+			<body style={{ width: '800px', fontFamily: 'sans-serif' }}>
 				<header>
 					<nav>
 						<ul
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
 				</header>
 				<main>
 					<section style={{ borderBottom: '1px solid' }}>
-						<h1>HarperDB Next.js Example Application</h1>
+						<h1>Harper Next.js Example Application</h1>
 						<p>This application demonstrates multiple distinct Next.js features.</p>
 
 						<p>Use the navigation links to try different page types.</p>
