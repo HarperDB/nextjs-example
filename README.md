@@ -10,8 +10,6 @@ TODO: Re-record video with new application steps
 > Watch a walkthrough of this example here: [Next.js on HarperDB | Step-by-Step Guide for Next Level Next.js Performance](https://youtu.be/GqLEwteFJYY)
 -->
 
-This example requires the [Harper Basic Data Example](https://github.com/HarperDB/basic-data-example) in order to function. Please follow the instructions in that repo to set up HarperDB with the necessary data before running this example.
-
 ## Get Started
 
 1. Clone this repo locally
@@ -23,10 +21,9 @@ This example requires the [Harper Basic Data Example](https://github.com/HarperD
 
 The easiest way to demonstrate this application remotely is to use the `prebuilt: true` option and the [Harper CLI](https://docs.harperdb.io/docs/deployments/harper-cli#operations-api-through-the-cli).
 
-1. Locally or in a CI environment, load the necessary data ([Harper Basic Data Example](https://github.com/HarperDB/basic-data-example))
-2. Create a build using `npm run build`
-3. Modify `config.yaml` to include `prebuilt: true` under the `@harperdb/nextjs` component
-4. Then deploy the prebuilt application using the Harper CLI:
+1. Locally or in a CI environment, create a build using `npm run build`
+2. Modify `config.yaml` to include `prebuilt: true` under the `@harperdb/nextjs` component
+3. Then deploy the prebuilt application using the Harper CLI:
 
 ```bash
 harperdb deploy \
