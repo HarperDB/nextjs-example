@@ -1,13 +1,14 @@
-import { getDog, listDogs } from '@/app/actions';
+import { getDog } from '@/app/actions';
+import { notFound } from 'next/navigation';
 
-export async function generateStaticParams() {
-	const dogs = await listDogs();
-
-	return dogs;
-}
+export const dynamic = 'force-dynamic';
 
 export default async function Dog({ params }) {
 	const dog = await getDog(params.id);
+	
+	if (!dog) {
+		notFound();
+	}
 
 	return (
 		<section>
