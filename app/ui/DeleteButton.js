@@ -14,7 +14,7 @@ export default function DeleteButton({ dogId }) {
 				border: 'none',
 				borderRadius: '4px',
 				fontSize: '0.875rem',
-				cursor: 'pointer'
+				cursor: 'pointer',
 			}}
 		>
 			Delete

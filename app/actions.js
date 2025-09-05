@@ -48,20 +48,20 @@ export async function createDog(formData) {
 	}
 
 	await tables.Dog.create({ name, breed, age, color });
-	
+
 	// Revalidate the dogs page to show updated data
 	revalidatePath('/dogs');
 }
 
 export async function deleteDog(dogId) {
 	console.log('Deleting dog with id:', dogId);
-	
+
 	if (typeof tables === 'undefined' || !tables.Dog) {
 		throw new Error('Database not available');
 	}
-	
+
 	await tables.Dog.delete(dogId);
-	
+
 	// Revalidate the dogs page to show updated data
 	revalidatePath('/dogs');
 }

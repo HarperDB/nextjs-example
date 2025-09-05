@@ -4,7 +4,7 @@ This is an example of how to use [`@harperdb/nextjs`](https://github.com/HarperD
 
 The Next.js application can interact with the database through the [Resource API](https://docs.harperdb.io/docs/technical-details/reference/resource) directly instead of relying on network operations. This is significantly more efficient and enables a better application development experience.
 
-<!-- 
+<!--
 TODO: Re-record video with new application steps
 > [!TIP]
 > Watch a walkthrough of this example here: [Next.js on HarperDB | Step-by-Step Guide for Next Level Next.js Performance](https://youtu.be/GqLEwteFJYY)
@@ -26,7 +26,7 @@ The easiest way to demonstrate this application remotely is to use the `prebuilt
 1. Locally or in a CI environment, load the necessary data ([Harper Basic Data Example](https://github.com/HarperDB/basic-data-example))
 2. Create a build using `npm run build`
 3. Modify `config.yaml` to include `prebuilt: true` under the `@harperdb/nextjs` component
-5. Then deploy the prebuilt application using the Harper CLI:
+4. Then deploy the prebuilt application using the Harper CLI:
 
 ```bash
 harperdb deploy \
