@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
 				<main>
 					<section style={{ borderBottom: '1px solid' }}>
 						<h1>Harper Next.js Example Application</h1>
+						<p>For Demo Purposes! 🐶</p>	
 						<p>This application demonstrates multiple distinct Next.js features.</p>
 
 						<p>Use the navigation links to try different page types.</p>
