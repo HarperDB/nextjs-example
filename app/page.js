@@ -26,14 +26,40 @@ export default async function Page() {
 			<p style={{ 
 				fontSize: '1.125rem', 
 				color: '#64748b', 
-				margin: '0 0 1rem',
+				margin: '0 0 2rem',
 				maxWidth: '600px',
 				marginLeft: 'auto',
 				marginRight: 'auto'
 			}}>
 				An application for managing dog records. <br/> View, search, and organize your canine database with ease.
 			</p>
-			<Link href="/dogs">Dogs</Link>
+			
+			<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+				<Link 
+					href="/dogs" 
+					style={{ 
+						backgroundColor: '#403b8a',
+						color: 'white',
+						padding: '1rem 2rem',
+						borderRadius: '8px',
+						textDecoration: 'none',
+						fontSize: '1.125rem',
+						fontWeight: '600',
+						boxShadow: '0 4px 6px rgba(64, 59, 138, 0.25)',
+						transition: 'all 0.2s ease-in-out',
+						display: 'inline-block'
+					}}
+				>
+					🐕 Manage Dogs →
+				</Link>
+				<p style={{ 
+					fontSize: '0.875rem', 
+					color: '#94a3b8', 
+					margin: 0 
+				}}>
+					Add, view, and delete dog records in real-time
+				</p>
+			</div>
 		</section>
 	);
 }

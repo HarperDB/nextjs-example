@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body style={{ margin: 0, fontFamily: 'system-ui, -apple-system, sans-serif', lineHeight: 1.6, color: '#333', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-				<header style={{ backgroundColor: '#2563eb', color: 'white', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
+				<header style={{ backgroundColor: '#403b8a', color: 'white', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
 					<nav style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
 						<ul
 							style={{
@@ -45,10 +45,10 @@ export default function RootLayout({ children }) {
 					<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '1.5rem 1rem', textAlign: 'center' }}>
 						<p style={{ margin: 0, color: '#64748b', fontSize: '0.875rem' }}>
 							Built with{' '}
-							<Link href="https://harpersystems.dev" style={{ color: '#2563eb', textDecoration: 'none' }}>
+							<Link href="https://harpersystems.dev" style={{ color: '#403b8a', textDecoration: 'none' }}>
 								Harper
 							</Link>
-							{' & '} <Link href="https://nextjs.org" style={{ color: '#2563eb', textDecoration: 'none' }}>
+							{' & '} <Link href="https://nextjs.org" style={{ color: '#403b8a', textDecoration: 'none' }}>
 								Next.js
 							</Link>
 						</p>

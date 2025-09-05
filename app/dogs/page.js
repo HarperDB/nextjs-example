@@ -139,7 +139,7 @@ export default async function Page() {
 					<button
 						type="submit"
 						style={{
-							backgroundColor: '#2563eb',
+							backgroundColor: '#403b8a',
 							color: 'white',
 							padding: '0.75rem 1.5rem',
 							border: 'none',
